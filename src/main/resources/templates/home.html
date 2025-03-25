@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{font-family: Arial,Helvatice,sans-serif;}
+    </style>
+</head>
+<body>
+<h1>Home page</h1>
+<p>Today is <span th:text="${date.toLocalTime()}">1st of December</span></p>
+<h2> <span th:text="${message}">My message</span></h2>
+</body>
+</html>
+
+
+<!--telnet localhost 8080-->
